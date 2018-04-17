@@ -1,0 +1,11 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: #39384b;
+}
+
+.nav a {
+  color: #e7e84d;
+  list-style-type: none;
+  text-decoration: none;
+}
