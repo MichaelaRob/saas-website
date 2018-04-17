@@ -2,35 +2,46 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Saas Website</title>
+  <title>Secureshare</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-  <header>
-    <nav>
-      <h1>Secureshare</h1>
-      <ul class="nav list-group-inline">
-        <li><a class="current" href="index.html">Home</a></li>
-        <li><a class="tour" href="tour.html">Products</a></li>
-        <li><a class="pricing" href="products.html">Pricing</a></li>
-        <li><a class="sign-up" href="sign-up.html">Sign up</a></li>
-      </ul>
-    </nav>
-    <div class="banner">
-      <img class="img-flex" src="images/home-banner.jpg" alt="">
-      <div class="banner-content">
-        <div class="text">
-          <p>Secure file sharing wherever life takes you</p>
-          <a class="btn btn-big" href="#">Start free</a>
-        </div>
+  <header role="banner">
+    <div>
+      <h1 class="push-0 unit [xs-1 s-1 m-1-2 l-1-2] text-left">Secureshare</h1>
+      <div>
+        <nav role="navigation" id="nav" tabindex="0">
+          <ul class="nav list-group-inline push-0">
+            <li><a class="current ib gutter-1-2" href="index.html">Home</a></li>
+            <li><a class="tour ib gutter-1-2" href="tour.html">Products</a></li>
+            <li><a class="pricing ib gutter-1-2" href="products.html">Pricing</a></li>
+            <li><a class="sign-up ib gutter-1-2" href="sign-up.html">Sign up</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
+  </header>
+
+  <main role="main" id="main" tabindex="0">
+    <section>
+      <div class="banner">
+        <img class="img-flex" src="images/home-banner.jpg" alt="">
+        <div class="banner-content">
+          <p>Secure file sharing wherever life takes you</p>
+          <a class="btn" href="#">Start free</a>
+        </div>
+      </div>
+    </section>
 
     <section>
       <h3>Why Choose Secureshare?</h3>
