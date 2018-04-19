@@ -53,4 +53,14 @@ h4 {
 
 .icon {
   background-color: #fff;
+  border-color: #fff;
+  border-style: solid;
+  border-width: .075rem;
+  border-radius: .1em;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #39384b;
 }
