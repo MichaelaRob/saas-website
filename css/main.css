@@ -40,3 +40,9 @@ h4 {
 .highlight {
   color: #e7e84d;
 }
+
+.green-box {
+  border-color: #e7e84d;
+  border-style: solid;
+  border-width: .075rem;
+}
