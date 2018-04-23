@@ -26,6 +26,10 @@ html {
   border-radius: .6em;
 }
 
+h1 {
+  color: #e7e84d;
+}
+
 .border {
   border-color: #62cfeb;
   border-style: solid;
