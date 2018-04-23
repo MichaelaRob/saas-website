@@ -68,3 +68,22 @@ h4 {
   border-color: #fff;
   color: #39384b;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75em;
+}
+
+thead th, {
+  background-color: #e2e2e2;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #333;
+}
+
+tbody th {
+  background-color: #e2e2e2;
+}
