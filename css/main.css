@@ -101,3 +101,16 @@ th, td {
   background-color: #212936;
   color: #fff;
 }
+
+label {
+  display: block;
+}
+
+form div {
+  margin-bottom: 1.5rem;
+}
+
+input,
+select, {
+  width: 15em;
+}
