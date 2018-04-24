@@ -36,7 +36,7 @@ html {
 
 .btn:hover {
   background-color: #fff;
-  border-color: #62cfeb;
+  border-color: #e7e84d;
   color: #39384b;
 }
 
@@ -87,7 +87,7 @@ table {
 
 th, td {
   padding: .75em;
-  border-bottom-color: #fff;
+  border-bottom-color: #e7e84d;
 }
 
 .product-list {
@@ -95,13 +95,13 @@ th, td {
 }
 
 .blue-1 {
-  background-color: #30536a;
-  color: #fff;
+  background-color: #fff;
+  color: #39384b;
 }
 
 .blue-2 {
-  background-color: #33485e;
-  color: #fff;
+  background-color: #62cfeb;
+  color: #39384b;
 }
 
 .blue-3 {
@@ -160,4 +160,8 @@ a:focus {
 
 .button {
   width: 10em;
+}
+
+.products {
+  background-color: #30536a;
 }
