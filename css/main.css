@@ -71,19 +71,26 @@ h4 {
 
 table {
   border-collapse: collapse;
+  background-color: #fff;
+  color: #39384b;
 }
 
 th, td {
-  border: 1px solid #ccc;
+  border: 2px solid #e7e84d;
   padding: 0.75em;
 }
 
-thead th, {
-  background-color: #e2e2e2;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #333;
+thead th {
+  background-color: #30536a;
+  color: #fff;
+  border-right: 1px solid #e7e84d;
+  border-bottom: 1px solid #e7e84d;
 }
 
 tbody th {
-  background-color: #e2e2e2;
+  background-color: #30536a;
+}
+
+tfoot {
+  background-color: #30536a;
 }
