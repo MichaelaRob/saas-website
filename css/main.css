@@ -94,3 +94,27 @@ tbody th {
 tfoot {
   background-color: #30536a;
 }
+
+.product-list {
+  list-style-type: disc;
+}
+
+.blue-1 {
+  background-color: #30536a;
+  color: #fff;
+}
+
+.blue-2 {
+  background-color: #33485e;
+  color: #fff;
+}
+
+.blue-3 {
+  background-color: #2e384a;
+  color: #fff;
+}
+
+.blue-4 {
+  background-color: #212936;
+  color: #fff;
+}
