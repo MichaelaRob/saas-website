@@ -37,9 +37,9 @@
   <main role="main" id="main" tabindex="0">
     <section>
       <div class="banner relative">
-        <img class="img-flex" src="images/home-banner.jpg" alt="">
+        <img class="img-flex" aria-details="#banner-image" src="images/home-banner.jpg" alt="">
         <div class="banner-content pin-lc gutter-1-2">
-          <h2 class="italic">Secure file sharing <span class="highlight">wherever</span> life takes you</h2>
+          <h2 class="italic" id="#banner-image">Secure file sharing <span class="highlight">wherever</span> life takes you</h2>
           <a class="btn bold" href="#">Start free</a>
         </div>
       </div>
@@ -54,11 +54,11 @@
 
               <div class="embed embed-1by1 unit xs-1-4">
                 <i class="icon i-64">
-                  <img class="embed-item" src="images/security-icon.svg" alt="">
+                  <img aria-details="#security-icon" class="embed-item" src="images/security-icon.svg" alt="">
                 </i>
               </div>
 
-              <div class="unit xs-3-4">
+              <div id="#security-icon" class="unit xs-3-4">
                 <h4 class="island-1-8 push-1-2 highlight-title">Reliable Security</h4>
                 <p class="roboto">We offer complete security on your stored files that you can rely on.</p>
                 <a class="btn bold" href="#" aria-label="Learn more about the reliable security">Learn More...</a>
