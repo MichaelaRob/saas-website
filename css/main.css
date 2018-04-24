@@ -157,3 +157,7 @@ footer {
 a:focus {
   outline: 3px solid #000;
 }
+
+.button {
+  width: 10em;
+}
