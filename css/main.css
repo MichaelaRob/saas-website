@@ -1,17 +1,17 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   background-color: #39384b;
 }
 
 .nav a {
-  color: #e7e84d;
+  color: #fff;
   list-style-type: none;
   text-decoration: none;
 }
 
 .banner-content {
-  width: 9.4em;
+  width: 17em;
   color: #fff;
 }
 
@@ -19,11 +19,22 @@ html {
   background-color: #30536a;
 }
 
+.roboto {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
 .btn {
-  color: #30536a;
+  color: #39384b;
   background-color: #e7e84d;
   border-color: #e7e84d;
-  border-radius: .6em;
+  border-radius: .9em;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #62cfeb;
+  color: #39384b;
 }
 
 h1 {
@@ -63,12 +74,6 @@ h1 {
   border-radius: .1em;
 }
 
-.btn:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #39384b;
-}
-
 table {
   border-collapse: collapse;
 }
@@ -104,10 +109,16 @@ th, td {
 
 label {
   display: block;
+  color: #000;
 }
 
 form {
+  background-color: #fff;
   color: #000;
+  border-color: #e7e84d;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: .3em;
 }
 
 form div {
@@ -117,4 +128,9 @@ form div {
 input,
 select {
   width: 15em;
+}
+
+fieldset,
+legend {
+  border: none;
 }

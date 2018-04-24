@@ -8,7 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,600,600i|Roboto+Slab:300,400,700" rel="stylesheet">
 </head>
 <body>
   <ul class="skip-links">
@@ -18,41 +18,51 @@
 
   <header role="banner">
     <div class="grid grid-middle">
-      <div class="unit text-left s-1-3 m-1-3">
-        <h1 class="gutter-1-2 push-1-2 unit [xs-1 s-1 m-1-2 l-1-2] text-left ib pad-t-1-2">Secureshare</h1>
+      <div class="unit text-left s-1 m-1-3">
+        <h1 class="italic gutter-1-2 push-1-2 unit [xs-1 s-1 m-1-2 l-1-2] text-left ib pad-t-1-2">Secureshare</h1>
       </div>
-      <div class="unit text-right pad-t s-2-3 m-2-3">
+      <div class="unit text-right pad-t s-1 m-2-3">
         <nav role="navigation" id="nav" tabindex="0">
           <ul class="nav list-group-inline">
-            <li><a class="current ib gutter-1-2" href="index.html">Home</a></li>
-            <li><a class="tour ib gutter-1-2" href="tour.html">Products</a></li>
-            <li><a class="pricing ib gutter-1-2" href="products.html">Pricing</a></li>
-            <li><a class="sign-up ib gutter-1-2" href="sign-up.html">Sign up</a></li>
+            <li><a class="current ib gutter-1-4" href="index.html">Home</a></li>
+            <li><a class="tour ib gutter-1-4" href="tour.html">Products</a></li>
+            <li><a class="pricing ib gutter-1-4" href="products.html">Pricing</a></li>
+            <li><a class="sign-up ib gutter-1-4" href="sign-up.html">Sign up</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <form action="thank.html" method="post">
-    <div>
-      <label for="name">Name</label>
-      <input id="name">
+  <div class="gutter-2 push-0">
+    <h2>Sign up now:</h2>
+  </div>
+
+  <section class="gutter-2 center-content grid">
+  <form class="island-1-2" action="thank.html" method="post">
+    <div class="unit s-1 m-1-2 l-1-3">
+      <label class="bold" for="name">Name</label>
+      <input id="name" placeholder="Firstname Lastname">
     </div>
 
-    <div>
-      <label for="email">E-mail</label>
+    <div class="unit s-1 m-1-2 l-1-3">
+      <label class="bold" for="email">E-mail</label>
       <input type="email" id="email" placeholder="your@email.com">
     </div>
 
-    <div>
-      <label for="password">Password</label>
+    <div class="unit s-1 m-1-2 l-1-3">
+      <label class="bold" for="password">Password</label>
       <input type="password" id="password">
     </div>
 
-    <div>
-      <label for="plan type">Plan Type</label>
-      <select id="plan type">
+    <div class="unit s-1 m-1-2 l-1-3">
+      <label class="bold" for="password">Confirm password</label>
+      <input type="password" id="password">
+    </div>
+
+    <div class="unit s-1 m-1-2 l-1-3">
+      <label class="bold" for="plan-type">Plan Type</label>
+      <select id="plan-type">
         <option>Free plan</option>
         <option>Personal plan</option>
         <option>Professional plan</option>
@@ -60,12 +70,13 @@
       </select>
     </div>
 
-    <div>
-      <label for="employee">Number of Employees</label>
+    <div class="unit s-1 m-1-2 l-1-3">
+      <label class="bold" for="employee">Number of Employees</label>
       <input type="number" min="1" max="100" step="1">
     </div>
 
-    <fieldset>
+    <fieldset class="unit s-1 m-1 l-1-2">
+      <legend>What kind of business are you?</legend>
       <input id="independant" type="checkbox">
       <label for="independant">Independant</label>
 
@@ -76,7 +87,8 @@
       <label for="corporation">Corporation</label>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="unit s-1 m-1 l-1-2">
+      <legend>Are you:</legend>
       <input id="female" type="radio" name="gender">
       <label for="female">Female</label>
 
@@ -88,5 +100,8 @@
     </fieldset>
 
 
-    <button type="submit">Sign up</button>
+    <button class="btn unit s-1 m-1 l-1" type="submit">Sign up</button>
   </form>
+</section>
+</body>
+</html>
