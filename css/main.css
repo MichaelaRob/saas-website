@@ -149,3 +149,7 @@ footer {
 .current {
   color: #e7e84d;
 }
+
+.embed {
+  padding: 0;
+}
