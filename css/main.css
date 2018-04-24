@@ -106,11 +106,15 @@ label {
   display: block;
 }
 
+form {
+  color: #000;
+}
+
 form div {
   margin-bottom: 1.5rem;
 }
 
 input,
-select, {
+select {
   width: 15em;
 }
