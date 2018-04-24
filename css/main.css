@@ -146,3 +146,7 @@ legend {
 footer {
   background-color: #39384b;
 }
+
+.current {
+  color: #e7e84d;
+}
