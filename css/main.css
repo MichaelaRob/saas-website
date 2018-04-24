@@ -153,3 +153,7 @@ footer {
 .embed {
   padding: 0;
 }
+
+a:focus {
+  outline: 3px solid #000;
+}
