@@ -37,6 +37,10 @@ html {
   color: #39384b;
 }
 
+.customer-reviews {
+  background-color: #30536a;
+}
+
 h1 {
   color: #e7e84d;
 }
@@ -133,4 +137,8 @@ select {
 fieldset,
 legend {
   border: none;
+}
+
+footer {
+  background-color: #39384b;
 }
