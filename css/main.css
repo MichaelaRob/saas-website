@@ -30,14 +30,14 @@ h1 {
   color: #e7e84d;
 }
 
-.border {
+.border, .cards {
   border-color: #62cfeb;
   border-style: solid;
   border-width: .075rem;
   background-color: #39384b;
 }
 
-h4 {
+.highlight-title {
   background-color: #e7e84d;
   color: #39384b;
   border-style: solid;
