@@ -132,10 +132,6 @@ form {
   border-radius: .3em;
 }
 
-form div {
-  margin-bottom: 1.5rem;
-}
-
 input,
 select {
   width: 15em;
