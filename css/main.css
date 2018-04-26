@@ -169,3 +169,8 @@ a:focus {
 .lowlight {
   color: #39384b;
 }
+
+.blue-background {
+  background-color: #30536a;
+  color: #e7e84d;
+}
