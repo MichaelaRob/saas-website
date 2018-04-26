@@ -20,7 +20,11 @@ html {
 }
 
 .why-choose {
-  background-color: #30536a;
+  background-color: #fff;
+}
+
+.h-3 {
+  color: #39384b;
 }
 
 .roboto {
